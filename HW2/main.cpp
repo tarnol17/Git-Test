@@ -1,6 +1,7 @@
 /**
- * 
- * 
+ * Name: Tyson Arnold
+ * Date: March 6, 2025
+ * Program: Phonebook Linked List
  */
 
 #include "phonebook.h"
@@ -13,6 +14,7 @@ int main() {
     int choice = 0;
 
     while (choice != 7) {
+        cout << "Welcome to the Phonebook! Please enter number to use. " << endl;
         cout << "1. Load phonebook from file" << endl;
         cout << "2. Save phonebook to file" << endl;
         cout << "3. Print phonebook" << endl;
