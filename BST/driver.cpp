@@ -31,6 +31,7 @@ int main() {
     string key;
     int value;
 
+    // Main loop for displaying menu and interacting with the user
     while (true) {
         showMenu();
         cin >> choice;
